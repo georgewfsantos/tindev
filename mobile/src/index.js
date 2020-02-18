@@ -1,5 +1,8 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {Platform, StatusBar} from 'react-native';
+import {StatusBar, YellowBox} from 'react-native';
+
+YellowBox.ignoreWarnings(['Unrecognized WebSocket']);
 
 import Routes from './routes';
 
